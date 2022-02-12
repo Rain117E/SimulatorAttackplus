@@ -43,7 +43,7 @@ Option 1: attack PN272, GDAS, WRN-28, and WRN-40 one by one with one command lin
 `python simulate_bandits_attack_shrink1_for_untargeted.py --gpu 0 --norm linf --epsilon 0.031372 --batch-size 100 --dataset CIFAR-10 --data_loss cw
  --distillation_loss mse --meta_arch resnet34 --test_archs`
 
-Option 2: attack PN272, GDAS, WRN-28, and WRN-40 one by one with one command line targted
+Option 2: attack PN272, GDAS, WRN-28, and WRN-40 one by one with one command line targeted
 
 `python simulate_bandits_attack_shrink_kmeans_for_targeted.py --gpu 0 --norm l2 --epsilon 4.6 --batch-size 100 --dataset CIFAR-100 --data_loss cw --distillation_loss mse --meta_arch resnet34 --test_archs --targeted`
 
