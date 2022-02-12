@@ -1,0 +1,2 @@
+Put CIFAR10 batches here
+
