@@ -3,7 +3,8 @@ This repo is based on CVPR 2021 Ma's Simulator Attack. The reference is [here](h
 
 # Parameters
 The detail information show in the default parameters setting of Simulator Attack+ Table I.
-![params](/params.png)
+![params](/params.png )
+<img src="/params.png" width="60%">
 
 # Requirement
 Pytorch 1.4.0 or above, torchvision 1.3.0 or above, bidict, pretrainedmodels 0.7.4, opencv-python
