@@ -5,6 +5,11 @@ This repo is based on CVPR 2021 Ma's Simulator Attack. The reference is [here](h
 ## FABM
 Through feature extraction and visualization of the simulator model in the initial state and the model selected as the black-box target, we find that the feature attentional area of a image is almost the same between the two models.
 
+The feature layer and attentional region visualization of first 9 images from the first batch input into initial simulator model and black-box model. The first line is the original images. The second line is the feature layer visualization of initial meta simulator model. The third line is the feature attentional region of initial meta simulator model. The forth line is the feature layer visualization of black-box target model (PyramidNet272). The last line is the feature attentional region of black-box model.
+
+After comparing the feature attentional regions between simulator model and black-box target model, we find the attentional areas of both models almost overlap with each other. So we conclude that some of the feature layer information in meta simulator model can be used in black-box attack too due to their similarity.
+<img src="/features.png" width="100%">
+
 ## UCM and LSSIM
 The picture below indicates that the classification ability varies relatively in initial simulator model and black-box target model. And this classification ability is the key point that simulator model need to learn during finetuning process after.
 <img src="/classification.png" width="110%">
