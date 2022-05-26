@@ -6,7 +6,8 @@ This repo is based on CVPR 2021 Ma's Simulator Attack. The reference is [here](h
 Through feature extraction and visualization of the simulator model in the initial state and the model selected as the black-box target, we find that the feature attentional area of a image is almost the same between the two models.
 
 ## UCM and LSSIM
-
+The picture below indicates that the classification ability varies relatively in initial simulator model and black-box target model. And this classification ability is the key point that simulator model need to learn during finetuning process after.
+<img src="/classification.png" width="60%">
 
 # Parameters
 The detail information show in the default parameters setting of Simulator Attack+ Table I.
