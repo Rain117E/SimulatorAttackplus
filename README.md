@@ -3,8 +3,20 @@ This repo is based on CVPR 2021 Ma's Simulator Attack. The reference is [here](h
 
 # Parameters
 The detail information show in the default parameters setting of Simulator Attack+ Table I.
-![params](/params.png )
-<img src="/params.png" width="60%">
+<img src="/params.png" width="80%">
+
+# Ablation Study
+## Ablation Study for Feature Attentional Boosting Module
+We firstly compare our two mentioned methods in FABM and decide use the momentum boosting module as the finally version of our Simulator Attack+. Then we conduct a group of experiments for our opinion by only adding FABM and adjusting the weight values of current direction and average direction in it. The range of current direction weight value is set from 0.9 to 1. Table II shows results. Each round of attacking takes 3 days for average. And these experiments are untargeted attack under l1 norm on CIFAR-100 dataset.
+<img src="/ablation_study1.png" width="80%">
+
+## Ablation Study for Linear Self-adaptive Simulatorpredict Interval Mechanism
+Table III clearly shows the results of experiments about Simulator Attack added with different parameters of LSSIM module only. This module can reach considerable positive influence under proper setting parameter pairs when conducting targeted attack, as such attack has to use large amount of queries.
+<img src="/ablation_study2.png" width="80%">
+
+## Ablation Study for Unsupervised Clustering Module
+We conduct targeted attack within l2 norm on CIFAR-10 to test the enhance effect of our unsupervised clustering module(UCM). Table IV shows the results compared with the baseline. As the time that this attack cost is very long, we only choose one round to show the improvement.
+<img src="/ablation_study3.png" width="80%">
 
 # Requirement
 Pytorch 1.4.0 or above, torchvision 1.3.0 or above, bidict, pretrainedmodels 0.7.4, opencv-python
