@@ -1,6 +1,13 @@
 # SimulatorAttackplus
 This repo is based on CVPR 2021 Ma's Simulator Attack. The reference is [here](https://github.com/machanic/SimulatorAttack).
 
+# Motivations
+## FABM
+Through feature extraction and visualization of the simulator model in the initial state and the model selected as the black-box target, we find that the feature attentional area of a image is almost the same between the two models.
+
+## UCM and LSSIM
+
+
 # Parameters
 The detail information show in the default parameters setting of Simulator Attack+ Table I.
 <img src="/params.png" width="80%">
