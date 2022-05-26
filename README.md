@@ -7,7 +7,7 @@ Through feature extraction and visualization of the simulator model in the initi
 
 ## UCM and LSSIM
 The picture below indicates that the classification ability varies relatively in initial simulator model and black-box target model. And this classification ability is the key point that simulator model need to learn during finetuning process after.
-<img src="/classification.png" width="100%">
+<img src="/classification.png" width="110%">
 
 # Parameters
 The detail information show in the default parameters setting of Simulator Attack+ Table I.
