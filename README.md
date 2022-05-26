@@ -12,11 +12,12 @@ We firstly compare our two mentioned methods in FABM and decide use the momentum
 
 ## Ablation Study for Linear Self-adaptive Simulatorpredict Interval Mechanism
 Table III clearly shows the results of experiments about Simulator Attack added with different parameters of LSSIM module only. This module can reach considerable positive influence under proper setting parameter pairs when conducting targeted attack, as such attack has to use large amount of queries.
-<img src="/ablation_study2.png" width="80%">
+
+<img src="/ablation_study2.png" width="60%">
 
 ## Ablation Study for Unsupervised Clustering Module
 We conduct targeted attack within l2 norm on CIFAR-10 to test the enhance effect of our unsupervised clustering module(UCM). Table IV shows the results compared with the baseline. As the time that this attack cost is very long, we only choose one round to show the improvement.
-<img src="/ablation_study3.png" width="80%">
+<img src="/ablation_study3.png" width="70%">
 
 # Requirement
 Pytorch 1.4.0 or above, torchvision 1.3.0 or above, bidict, pretrainedmodels 0.7.4, opencv-python
