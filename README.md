@@ -12,7 +12,7 @@ After comparing the feature attentional regions between simulator model and blac
 <img src="/features.png" width="45%">
 
 ## UCM and LSSIM
-The picture below indicates that the classification ability varies relatively in initial simulator model and black-box target model. And this classification ability is the key point that simulator model need to learn during finetuning process after.
+The picture below indicates that the classification ability varies relatively in initial simulator model and black-box target model. And this classification ability is the key point that simulator model need to learn during finetuning process after. Thus, a cold start problem exists in the attacking process.
 <img src="/classification.png" width="110%">
 
 # Parameters
